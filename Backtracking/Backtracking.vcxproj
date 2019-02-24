@@ -115,6 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="SimpleBacktrack.h" />
+    <ClInclude Include="Source.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleBacktrack.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
